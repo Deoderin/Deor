@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3233795550657262083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9132111422191563326}
+  - component: {fileID: 8121398680405118765}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9132111422191563326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233795550657262083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8472302, y: -73.71208, z: 4.1934023}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8121398680405118765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233795550657262083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50336a693d8e2f449013f3a24f93f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  playerColor: {r: 0, g: 0, b: 0, a: 0}
+  meepleColor: {r: 0, g: 0, b: 0, a: 0}
+  meeplesPrefab:
+  - {fileID: 4395101874315186552, guid: 7b39acb9df5727142ac6083f35b7a3ac, type: 3}
+  - {fileID: 1987134203953903727, guid: 515872bf249ba1d499d8a464a47382e2, type: 3}
+  - {fileID: 3324593341383157524, guid: 78f5944afc073514999867f252044c42, type: 3}
+  - {fileID: 7130391634902014874, guid: 52e8474889ab2754ba1a22c3f3e5797a, type: 3}
+  MeepleDistance: {x: 0.22, y: 0, z: 0}
+  meeples: []
+  Score: 0
+  WinScore: 0
+  MeepleRot: 0
+  HUD: {fileID: 0}
+  DominoShowerPrefab: {fileID: 2490032511152926791, guid: b5d9c4ccb4d85074fa12fae97e72742c,
+    type: 3}
+  DominoShower: {fileID: 0}
+  ScoreText: {fileID: 0}
+  DominoCountText: {fileID: 0}
+  CurPos: {x: 0, y: 0, z: 0}
+  SpawnPos: {x: 0, y: 0, z: 0}
+  PlayerDelta:
+  - {x: -1.08, y: 0, z: -0.9}
+  - {x: 1.08, y: 0, z: -0.9}
+  - {x: -1.08, y: 0, z: 0.9}
+  - {x: 1.08, y: 0, z: 0.9}
+  MeeplePos:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  selectorEffectPrefab: {fileID: 6613455773939358313, guid: 4d6978f99f700fc46806f81a0dd06579,
+    type: 3}
+  spawned: 0
+  MeepleCount: 0
+  loadSave: 0
+  firstplayer: 0
+  HUdPosition: {x: 0, y: 0, z: 0}
+  turnIndicator: {fileID: 0}
+  InvertedShowerButton: 1
+  SideIndicator:
+  - {fileID: 2800000, guid: f14a3dc22013b1d488ea3df298c84930, type: 3}
+  - {fileID: 2800000, guid: a116ec7b24e453f42b16828069a02e25, type: 3}
+  - {fileID: 2800000, guid: ddb9b5fc3a0174b4e82becd04294537b, type: 3}
+  - {fileID: 2800000, guid: 19a58638e060ddb4da2760a01c37766c, type: 3}
+  ScoreBox: {fileID: 0}
+  AlarmPrefab: {fileID: 6442214125800080080, guid: acc2b79da570cb04c8227be28a0a263a,
+    type: 3}
+  SetIndecatorPrefab: {fileID: 8585839008022767051, guid: d5c45c6b8b094f34ba5eafeea86e8af1,
+    type: 3}
+  PSide: 0
+  outSortRange: 0
+  LastOpenSetTilesSort: 0
+  OneOff: 0
+  Combinations: 
